@@ -31,7 +31,7 @@ export default function Services() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl font-light mb-10 opacity-90"
           >
-            En **ContaReyes**, te ofrecemos soluciones contables, fiscales y financieras diseñadas para tu éxito. Explora cómo podemos acompañarte en cada paso.
+            En **Reyes Ibarra y Asociados**, te ofrecemos soluciones contables, fiscales y financieras diseñadas para tu éxito. Explora cómo podemos acompañarte en cada paso.
           </motion.p>
         </div>
       </section>

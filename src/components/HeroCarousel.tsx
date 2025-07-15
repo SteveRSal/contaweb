@@ -16,7 +16,7 @@ export default function HeroCarousel() {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold mb-4"
         >
-          Bienvenido a ContaReyes
+          Bienvenido a Reyes Ibarra y Asociados
         </motion.h1>
 
         <motion.p 

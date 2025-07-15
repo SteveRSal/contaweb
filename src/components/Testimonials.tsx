@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const testimonials = [
   {
     name: "Carlos P.",
-    text: "ContaReyes ha manejado mi contabilidad impecable. Siempre claros y confiables.",
+    text: "Reyes Ibarra y Asociados ha manejado mi contabilidad impecable. Siempre claros y confiables.",
   },
   {
     name: "Laura G.",

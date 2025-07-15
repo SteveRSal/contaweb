@@ -1,13 +1,11 @@
 import { motion } from "framer-motion";
-import { CheckCircleIcon } from "@heroicons/react/24/solid"; // O considera Feather Icons, Material Design Icons, etc.
+import { CheckCircleIcon } from "@heroicons/react/24/solid"; 
 
 export default function About() {
   return (
     <main className="relative py-20 px-4 max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center overflow-hidden">
-      {/* Fondo degradado o formas sutiles (ejemplo con un div simple) */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-100 opacity-50 -z-10"></div>
       
-      {/* Texto principal con más énfasis en la sección "Sobre Nosotros" */}
       <motion.div
         initial={{ opacity: 0, x: -70 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -19,12 +17,11 @@ export default function About() {
         </h1>
 
         <p className="mb-8 text-xl text-gray-700 leading-relaxed">
-          En <strong className="text-blue-700">ContaReyes</strong> somos un equipo de profesionales comprometidos 
+          En <strong className="text-blue-700">Reyes Ibarra y Asociados</strong> somos un equipo de profesionales comprometidos 
           en ofrecer soluciones contables, fiscales y administrativas 
           que respaldan y fortalecen a nuestros clientes.
         </p>
 
-        {/* Misión, Visión, Valores en tarjetas o bloques más definidos */}
         <div className="space-y-10">
           <motion.section
             initial={{ opacity: 0, y: 30 }}
